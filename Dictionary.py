@@ -1,44 +1,53 @@
 
-# Collection of key-value pairs.
+# key value pair 
 
-student = {"name":"alice","age":20}
+
+student = {"name":"dev","age":17}
 
 
 # access
 
 print(student["name"])
 
+
 print(student.get("age"))
 
-# add property
 
-student["grade"]="A"
-
-print(student)
-
-# update 
-
-student["age"] = 25
+# add
 
 print(student)
 
-student.update({"age":"21"})
+student["grade"] = "B"
 
 print(student)
 
 
-# remove
+# update
 
-student.pop("grade")
+student["grade"] = "c"
 
 print(student)
 
-del student["age"]
+
+student.update({"age":45})
+
+
 print(student)
+
+# delete
+
+
+del student["grade"]
+
+print(student)
+
 
 # student.clear()
-print(student)
 
+# print(student)
+
+
+# 
 
 print(student.keys())
 

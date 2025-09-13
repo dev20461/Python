@@ -1,7 +1,11 @@
-age = 18
 
 
 
-if(age>=18):
+
+age = 29
+
+
+
+if(age>=29):
     print("you can give vote")
     

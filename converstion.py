@@ -1,4 +1,7 @@
-word ="python developer"
+
+
+
+word ="practical coding"
 
 print(word.upper())
 

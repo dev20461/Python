@@ -1,11 +1,10 @@
 
 
 
+word = "hey"
 
-word = "hello goodMorning"
 
-
-print(word.find("good"))
+print(word.find("hey,how are"))
 
 print(word.find("z"))
 

@@ -1,17 +1,17 @@
 # immutable can't be modify
 
 
-tup = (1,3,2,4,5,6,9,4,2,0,2)
+tup = (4,5,6,1,9,2,9,7,8,0,7)
 
 
 
 # count
 
 
-print("count",tup.count(2))
+print("count",tup.count(9))
 
 
 
 # index
 
-print("index",tup.index(3))
+print("index",tup.index(7))

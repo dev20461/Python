@@ -1,7 +1,7 @@
 
 
 
-fruits = "apple,banana,mango"
+fruits = "gauva,pineapple,mosambi"
 
 # print(fruits.split(" "))
 

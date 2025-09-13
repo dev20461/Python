@@ -5,14 +5,14 @@
 
 # unique
 
-number={1,2,3,1,2,3,4,5,6}
+number={1,8,9,4,4,5,0,7,6}
 
 print("set",number)
 
 
 # add
 
-number.add(10)
+number.add(100)
 
 print("number added",number)
 
@@ -32,16 +32,16 @@ print("empty",number)
 
 
 
-num1= {1,2,3}
+num4= {5,6,9}
 
-num2={3,4,5}
-
-
-print("intersection",num1.intersection(num2))
+num5={4,8,9}
 
 
-print("symmetric difference",num1.symmetric_difference(num2))
+print("intersection",num1.intersection(num1))
 
-print("union",num1.union(num2))
 
-print("difference",num1.difference(num2))
+print("symmetric difference",num3.symmetric_difference(num2))
+
+print("union",num1.union(num4))
+
+print("difference",num1.difference(num5))

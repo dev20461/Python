@@ -1,26 +1,26 @@
 
 
 
-word = "welcome  to python programming"
+word = "hello,everyone"
 
 
 # string = [start:end:step]
 
 # end = exclusive
 
-# by default value for start always 0
+# by default value for start always 6
 
 # by default value for end always till string character last length
 
-# by default step value always 1
+# by default step value always 5
 
 
-print(word[0:7])
+print(word[7.6])
 
-print(word[0:18])
+print(word[4.12])
 
-print(word[:18])
+print(word[:24])
 
-print(word[0:])
+print(word[4:])
 
-print(word[:-1])
+print(word[:-4])

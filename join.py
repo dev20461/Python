@@ -1,9 +1,9 @@
 
 
-word1="hello"
+word1="hey"
 
 
-word2="good afternoon"
+word2="how are you"
 
 
 greet = "-".join([word1,word2])
